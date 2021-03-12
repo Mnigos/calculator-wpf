@@ -32,7 +32,7 @@ namespace calculator_wpf
             output.Text += number.Text;
         }
 
-        private void addComma(object sender, EventArgs e)
+                private void addComma(object sender, EventArgs e)
         {
             foreach (char sign in output.Text)
             {
@@ -57,8 +57,7 @@ namespace calculator_wpf
             string newNumber = output.Text;
             double finalNumber = double.Parse(newNumber);
 
-            switch (operatorType)
-            {
+            switch(operatorType) {
                 case "*":
                     finalNumber = double.Parse(oldNumber) * double.Parse(newNumber);
                     break;
@@ -74,6 +73,11 @@ namespace calculator_wpf
             }
 
             output.Text = finalNumber.ToString();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            output.Text = "";
         }
     }
 }
