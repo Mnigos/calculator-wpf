@@ -31,5 +31,16 @@ namespace calculator_wpf
             Button number = sender as Button;
             output.Text += number.Text;
         }
+
+        private void addComma(object sender, EventArgs e)
+        {
+            foreach (char sign in output.Text)
+            {
+                if (sign == ',') isComma = true;
+            }
+
+            if (!isComma) output.Text += ",";
+            isComma = true;
+        }
     }
 }
