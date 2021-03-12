@@ -42,5 +42,14 @@ namespace calculator_wpf
             if (!isComma) output.Text += ",";
             isComma = true;
         }
+
+        private void addOperator(object sender, EventArgs e)
+        {
+            Button op = sender as Button;
+
+            oldNumber = output.Text;
+            operatorType = op.Text;
+            isNewOperator = true;
+        }
     }
 }
