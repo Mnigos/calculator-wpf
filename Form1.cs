@@ -51,5 +51,29 @@ namespace calculator_wpf
             operatorType = op.Text;
             isNewOperator = true;
         }
+
+        private void equalEvent(object sender, EventArgs e)
+        {
+            string newNumber = output.Text;
+            double finalNumber = double.Parse(newNumber);
+
+            switch (operatorType)
+            {
+                case "*":
+                    finalNumber = double.Parse(oldNumber) * double.Parse(newNumber);
+                    break;
+                case "+":
+                    finalNumber = double.Parse(oldNumber) + double.Parse(newNumber);
+                    break;
+                case "-":
+                    finalNumber = double.Parse(oldNumber) - double.Parse(newNumber);
+                    break;
+                case "/":
+                    finalNumber = double.Parse(oldNumber) / double.Parse(newNumber);
+                    break;
+            }
+
+            output.Text = finalNumber.ToString();
+        }
     }
 }
