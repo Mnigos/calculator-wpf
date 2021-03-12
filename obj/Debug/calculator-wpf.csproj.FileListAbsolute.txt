@@ -1,0 +1,10 @@
+C:\Users\makow\source\repos\calculator-wpf\bin\Debug\calculator-wpf.exe.config
+C:\Users\makow\source\repos\calculator-wpf\bin\Debug\calculator-wpf.exe
+C:\Users\makow\source\repos\calculator-wpf\bin\Debug\calculator-wpf.pdb
+C:\Users\makow\source\repos\calculator-wpf\obj\Debug\calculator-wpf.csprojAssemblyReference.cache
+C:\Users\makow\source\repos\calculator-wpf\obj\Debug\calculator_wpf.Form1.resources
+C:\Users\makow\source\repos\calculator-wpf\obj\Debug\calculator_wpf.Properties.Resources.resources
+C:\Users\makow\source\repos\calculator-wpf\obj\Debug\calculator-wpf.csproj.GenerateResource.cache
+C:\Users\makow\source\repos\calculator-wpf\obj\Debug\calculator-wpf.csproj.CoreCompileInputs.cache
+C:\Users\makow\source\repos\calculator-wpf\obj\Debug\calculator-wpf.exe
+C:\Users\makow\source\repos\calculator-wpf\obj\Debug\calculator-wpf.pdb
