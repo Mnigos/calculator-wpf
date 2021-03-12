@@ -79,5 +79,10 @@ namespace calculator_wpf
         {
             output.Text = "";
         }
+
+        private void btnUndo_Click(object sender, EventArgs e)
+        {
+            output.Text = output.Text.Remove(output.Text.Length - 1);
+        }
     }
 }
